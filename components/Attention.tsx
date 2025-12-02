@@ -47,7 +47,7 @@ const getLobeFunction = (lobeName: keyof typeof LOBE_CONFIG): { primary: string 
             };
         case "Occipital Lobe":
             return {
-                primary: "Main visual processing center; handling sight, color recognition,S motion perception.",
+                primary: "Main visual processing center; handling sight, color recognition, motion perception.",
             };
         default:
             return { primary: "This region serves vital background functions for the central nervous system.",};
