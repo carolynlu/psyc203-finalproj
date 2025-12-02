@@ -183,7 +183,7 @@ const Perception: React.FC<PerceptionProps> = ({
                 onClick={() => onSelectScenario(scenario)}
                 className={`p-4 rounded-2xl text-left transition-all duration-300 border relative overflow-hidden group shadow-sm ${
                   selectedScenario?.id === scenario.id
-                    ? 'bg-[#fff3e0] border-[#e07b39] shadow-[0_0_20px_rgba(244,162,97,0.2)] scale-[1.02]'
+                    ? 'bg-[#fff3e0] border-[#e07b39] shadow-[0_0_20px_rgba(244,162,97,0.2)]'
                     : 'bg-white/80 border-slate-200 hover:bg-[#fff3e0] hover:border-[#f4a261]'
                 }`}
               >
@@ -207,7 +207,7 @@ const Perception: React.FC<PerceptionProps> = ({
               }}
               className={`p-4 rounded-2xl text-left transition-all duration-300 border relative overflow-hidden group cursor-pointer shadow-sm ${
                 isCustomSelected
-                  ? 'bg-[#fff3e0] border-[#e07b39] shadow-[0_0_20px_rgba(244,162,97,0.2)] scale-[1.02] col-span-1 sm:col-span-2'
+                  ? 'bg-[#fff3e0] border-[#e07b39] shadow-[0_0_20px_rgba(244,162,97,0.2)] col-span-1 sm:col-span-2'
                   : 'bg-white/80 border-slate-200 hover:bg-[#fff3e0] hover:border-[#f4a261]'
               }`}
             >
