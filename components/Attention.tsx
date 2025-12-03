@@ -232,7 +232,7 @@ const Attention: React.FC<AttentionProps> = ({ isLoading, result, scenario, mode
                       <div className="flex justify-between items-center mb-3 relative z-10">
                         <h4 className={`font-bold font-sans text-lg ${config.text}`}>{region.name}</h4>
                         <span className="text-xs font-mono bg-slate-100 px-2 py-1 rounded text-slate-500 border border-slate-200 font-bold">
-                          {region.intensity}% Load
+                          {region.intensity}% Activation
                         </span>
                       </div>
                       <div className="w-full bg-slate-100 rounded-full h-1.5 mb-4 relative z-10">
